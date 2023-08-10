@@ -75,3 +75,29 @@
         6 x 9 = 54
 
 */
+
+#include<stdio.h>
+
+ int main(){
+
+    int ip1, ip2;
+
+    printf("Start :\n");
+    scanf("%d" , &ip1);
+
+    printf("End :\n");
+    scanf("%d" , &ip2);
+
+    printf("Output :\n");
+
+    for (int i = ip1; i <= ip2; i++)
+    {
+        for(int i2 = 1 ; i2 <= 9; i2++){
+            printf("%d x %d = %d\n", i , i2 , i * i2);
+        }
+        printf("\n");
+    }
+    
+
+    return 0;
+ }
